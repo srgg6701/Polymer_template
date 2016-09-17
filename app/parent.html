@@ -1,0 +1,20 @@
+<link rel="import" href="child.html"/>
+<dom-module id="x-comphost" noscript>
+    <template>
+        <h4>Hello, man!</h4>
+        <p>I'm seeking child</p>
+        <x-child></x-child>
+    </template>
+    <script>
+        Polymer({
+            is: "x-comphost",
+            ready: function () {
+                this.area = 'private';
+                this.policies = ['Hospital', 'Dental', 'Travel', ['Radiology', 'PlanP', ['Easy Cash']]];
+                /* Query shadow DOM for the x-child element */
+                //var childEl = Polymer.dom(this.root).querySelector('x-child');
+                //childEl.allPolicies = this.policies;
+            }
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,17 @@
+<dom-module id="x-child" noscript>
+  <template>
+    <h5>Hello again!</h5>
+    <p>Remember me?</p>
+  </template>
+  <script>
+    Polymer({
+      is:"x-child",
+      ready:function(){
+          // console.log('Start delay');
+          // var nd = new Date;
+          // while(new Date - nd < 1500);
+          console.log({this:this, domHost: this.domHost});
+      }
+    });
+  </script>
+</dom-module>
