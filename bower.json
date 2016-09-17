@@ -1,0 +1,25 @@
+{
+  "name": "Polymer template to evolve",
+  "homepage": "https://github.com/srgg6701/Polymer_template",
+  "authors": [
+    "srgg6701 <srgg67@gmail.com>"
+  ],
+  "description": "Very basic Polymer template. Just to get started!",
+  "main": "index.html",
+  "keywords": [
+    "Polymer",
+    "javascript",
+    "template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.6.1"
+  }
+}
